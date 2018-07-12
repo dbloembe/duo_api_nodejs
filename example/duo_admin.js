@@ -38,7 +38,7 @@ Options:
     }
 }
 
-var client = new duo_api.Client(parsed.ikey, parsed.skey, parsed.host);
+var client = new duo_api.Client(parsed.ikey, parsed.skey, parsed.host, 2, 'sha1');
 client.jsonApiCall(
     'GET', '/admin/v1/info/authentication_attempts', {},
     function(res) {

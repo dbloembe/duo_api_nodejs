@@ -25,7 +25,9 @@
     "optionalDependencies": {
         "nopt": ">= 2.1.2"
     },
-    "dependencies": {},
+    "dependencies": {
+        "lodash": "^4.17.10"
+    },
     "keywords": [
         "Duo Security",
         "Two-Factor Authentication"
